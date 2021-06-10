@@ -24,9 +24,9 @@ TO CHECK THE NUMBER OF SWAPS REQUIRED
 int size = s.size();
 int count = 0 ;
 
-for ( int i = 0 ; i<= size/2 ; i++)
+for ( int i = 0 ; i< size/2 ; i++)
 {
-    if (s [i] != s[size - 1])
+    if (s [i] != s[size - 1-i])
     {
         count++ ;
     }
